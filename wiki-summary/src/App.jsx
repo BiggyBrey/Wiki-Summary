@@ -1,12 +1,20 @@
+import './App.css';
+
+import Title from "./Title"
+import Search from "./Search";
+import Body from "./Body";
+
 function App(){
     return(
         <>
-            <div id="title">
-                <h1>Wiki-Summary</h1>
-                <h2>By: Breyten Cowen</h2>
-            </div>
+
+        <Title />
+
+        <Search />
+
+        <Body />
         </>
-    )
+    );
 }
 
 export default App
