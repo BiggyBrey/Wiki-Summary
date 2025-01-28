@@ -1,3 +1,37 @@
 .Title{
     display:flex
     ;}
+
+    .alert {
+        padding: 20px;
+        background-color: #f44336; /* Red */
+        color: white;
+        margin-bottom: 15px;
+      }
+      
+      .hideit {
+        display: none;
+      }
+      
+      .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      
+      .closebtn:hover {
+        color: black;
+      }
+
+      .search{
+        display:flex;
+        /* align-items: center;
+        justify-content: center; */
+        /* padding: 1em; */
+    }
+      

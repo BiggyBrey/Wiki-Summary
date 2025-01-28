@@ -29,11 +29,12 @@ This app will use an Ai API to summarize Wikipedia articles
 
 ## Notes:
 -What will you add? What will you make differently?
+### QuickWiki
 -quickwiki uses form for search div.
 -quickwiki has set of instructions under search bar.
--quickwiki, when click search with nothing in text box, instructions disappear, box instructs to "Please Enter a link/topic, dismissible with x.
--quickwiki, when url searched, shows topic, and below it tells what it is. Ex: Lightsaber - Fictional Sword.
--quickwiki, when search, stays on page, instructions disappear, search bar moves to top of hero- under logo, then summary populates under search bar
+- when click search with nothing in text box, instructions disappear, box instructs to "Please Enter a link/topic, dismissible with x.
+- when url searched, shows topic, and below it tells what it is. Ex: Lightsaber - Fictional Sword.
+- when search, stays on page, instructions disappear, search bar moves to top of hero- under logo, then summary populates under search bar
 
 
 

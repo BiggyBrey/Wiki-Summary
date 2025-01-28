@@ -1,5 +1,4 @@
 import Title from "./Title";
-import Search from "./Search";
 import Body from "./Body";
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
     <>
       <Title />
 
-      <Search />
 
       <Body />
     </>
