@@ -1,20 +1,17 @@
-import './App.css';
-
-import Title from "./Title"
+import Title from "./Title";
 import Search from "./Search";
 import Body from "./Body";
 
-function App(){
-    return(
-        <>
+function App() {
+  return (
+    <>
+      <Title />
 
-        <Title />
+      <Search />
 
-        <Search />
-
-        <Body />
-        </>
-    );
+      <Body />
+    </>
+  );
 }
 
-export default App
+export default App;

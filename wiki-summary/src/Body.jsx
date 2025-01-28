@@ -1,11 +1,9 @@
-function Body(){
-    return(
-        <>
-
-     
-
-        </>
-    );
+function Body() {
+  return (
+    <>
+      <div style={{ outline: "red" }}>Hello </div>
+    </>
+  );
 }
 
-export default Body
+export default Body;
