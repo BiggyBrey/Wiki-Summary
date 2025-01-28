@@ -6,6 +6,8 @@ This app will use an Ai API to summarize Wikipedia articles
 -Input type:"text"
 -Search button
 -Summary text body
+-Flex Box
+-Shows at least one image
 -API connection to:
   -Wikipedia
   -Ai
@@ -22,7 +24,16 @@ This app will use an Ai API to summarize Wikipedia articles
   -Black History
   -Food
   -Fun Facts
+-Shows when the article was last edited
+-Click name/logo, brings back to homepage
 
+## Notes:
+-What will you add? What will you make differently?
+-quickwiki uses form for search div.
+-quickwiki has set of instructions under search bar.
+-quickwiki, when click search with nothing in text box, instructions disappear, box instructs to "Please Enter a link/topic, dismissible with x.
+-quickwiki, when url searched, shows topic, and below it tells what it is. Ex: Lightsaber - Fictional Sword.
+-quickwiki, when search, stays on page, instructions disappear, search bar moves to top of hero- under logo, then summary populates under search bar
 
 
 
