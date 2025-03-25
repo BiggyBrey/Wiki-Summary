@@ -1,4 +1,4 @@
-import Search from "./Search";
+import Searchbar from "./components/Searchbar";
 import "./App.css";
 
 function Body() {
@@ -16,26 +16,20 @@ function Body() {
         </div>
         {/*Alert message badge ends*/}
 
-        <form class="search">
-          <input
-            type="text"
-            id="url"
-            placeholder="Paste URL here/Search topic"
-            autoFocus=""
-          ></input>
-          <input id="submitbtn" type="submit" value="Submit"></input>
-        </form>
+        <Searchbar />
+
+        addNums()
 
         <div id="steps" class="container">
           {/*Steps / Instructions */}
           <p class="moto">Quick summary of desired wiki article</p>
           <ol>
             <li>
-              1. Copy n paste the URL of your desired Wiki page (or) Input any
+              Copy n paste the URL of your desired Wiki page (or) Input any
               topic you want to know about in the box above
             </li>
-            <li>2.Click the submit button</li>
-            <li>3.Get the summary of the Wiki page!</li>
+            <li>Click the submit button</li>
+            <li>Get the summary of the Wiki page!</li>
           </ol>
         </div>
       </div>

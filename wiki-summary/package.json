@@ -39,6 +39,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "daisyui": "^5.0.6",
     "web-vitals": "^4.2.4"
   }
 }
